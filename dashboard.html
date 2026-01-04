@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern Dashboard</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="dashboard-container" id="dashboardPage">
+  <h1>Message Sender</h1>
+  <select id="command">
+    <option value="ASH IS WORK">ASH IS WORK</option>
+    <option value="SHE IS SLEEPING">SHE IS SLEEPING</option>
+    <option value="DINETH SILWA">DINETH SILWA</option>
+  </select>
+  <input type="text" id="number" placeholder="Enter number (+947xxxxxxx)" />
+  <button class="futuristic-btn" id="sendMsgBtn">Send Message</button>
+</div>
+
+<!-- Music -->
+<audio id="music" loop src="public/music/song.mp3"></audio>
+<button id="musicBtn">🎵</button>
+
+<!-- Theme toggle -->
+<button class="theme-btn" id="themeToggle">🌙</button>
+
+<script type="module" src="js/main.js"></script>
+<script src="js/music.js"></script>
+</body>
+</html>
