@@ -1,0 +1,11 @@
+body { margin:0; font-family:'Segoe UI', sans-serif; background:#0a0f2c; color:#eee; min-height:100vh; transition: background 0.3s,color 0.3s; overflow-x:hidden;}
+.login-container, .dashboard-container {max-width:400px; width:90%; background:#121c3a; border-radius:20px; padding:30px; text-align:center; margin:50px auto; box-shadow:0 0 30px rgba(0,0,0,0.7); transition: background 0.3s,color 0.3s;}
+.light-theme body {background:#e0e5ec; color:#111;}
+.light-theme .login-container,.light-theme .dashboard-container{background:#f5f8fc; box-shadow:0 0 25px rgba(0,0,0,0.2);}
+input, select {display:block; width:80%; margin:12px auto; padding:12px; border-radius:10px; border:none; outline:none; font-size:16px; background:#1a2a50; color:#fff;}
+.light-theme input, .light-theme select {background:#fff; color:#111; border:1px solid #ccc;}
+.futuristic-btn{display:inline-block;margin:10px auto;padding:12px 25px;border-radius:50px;border:none;font-size:16px;font-weight:bold;background:linear-gradient(45deg,#00c6ff,#0072ff);color:#fff;cursor:pointer;transition:transform 0.3s,box-shadow 0.3s;}
+.futuristic-btn:hover{transform:scale(1.1); box-shadow:0 0 20px rgba(0,198,255,0.7);}
+.theme-btn{position:fixed;top:20px;right:20px;background:linear-gradient(45deg,#ff6ec7,#8338ec);border-radius:50%;width:50px;height:50px;font-size:20px;display:flex;justify-content:center;align-items:center;z-index:1000;}
+#musicBtn{position:fixed;bottom:20px;right:20px;padding:16px;border-radius:50%;background:#0072ff;color:#fff;font-size:20px;border:none;cursor:pointer;z-index:9999;box-shadow:0 0 10px rgba(0,114,255,0.7);transition:transform 0.2s,box-shadow 0.3s;}
+#musicBtn:hover{transform:scale(1.1); box-shadow:0 0 20px rgba(0,114,255,1);}
